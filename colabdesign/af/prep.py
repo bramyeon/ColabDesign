@@ -93,7 +93,7 @@ class _af_prep:
     
     self._args.update({
       "copies":copies,
-      "block_diag":not self._args["use_multimer"]:
+      "block_diag":not self._args["use_multimer"]
     })
 
     # configure input features
